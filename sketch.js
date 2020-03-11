@@ -20,11 +20,8 @@ function draw() {
   //llenado de la figura
   noStroke();
   //no linea
-  ellipse(250,250,100,200);
-   
-    
-  fill(250,0,0);
   c = a * random (1,5);
   ellipse(mouseX,mouseY,c,c);
-  //forma elegida
+ 
+   
 }
