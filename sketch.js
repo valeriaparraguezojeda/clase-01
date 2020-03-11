@@ -3,7 +3,7 @@ var a=150;
 
 //cree una variable a que cuando se escribe a en otra parte indica que esa variable a se reemplaza por 50;
 function setup() {
-  createCanvas(500, 400);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
