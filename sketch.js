@@ -1,7 +1,7 @@
 var a=150;
+var c;
 
-
-//cree una variable a que cuando se escribe a en otra parte indica que esa variable a se reemplaza por 50;
+    //cree una variable a que cuando se escribe a en otra parte indica que esa variable a se reemplaza por 50;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
@@ -23,6 +23,7 @@ function draw() {
   ellipse(250,250,100,200);
   colorMode:(RGB);
   fill(250,0,0);
+  c= a * random (1,5);
   ellipse(mouseX,mouseY,50,100);
   //forma elegida
 }
