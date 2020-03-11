@@ -22,6 +22,5 @@ function draw() {
   //no linea
   c = a * random (1,5);
   ellipse(mouseX,mouseY,c,c);
- 
-   
+    
 }
