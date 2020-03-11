@@ -20,7 +20,7 @@ function draw() {
   //llenado de la figura
   noStroke();
   //no linea
-  c = a * random (1,5);
+  c = a * random (1,6);
   ellipse(mouseX,mouseY,c,c);
     
 }
