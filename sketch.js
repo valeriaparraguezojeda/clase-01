@@ -1,4 +1,4 @@
-var a=150;
+var a=50;
 var c;
 
     //cree una variable a que cuando se escribe a en otra parte indica que esa variable a se reemplaza por 50;
@@ -21,9 +21,10 @@ function draw() {
   noStroke();
   //no linea
   ellipse(250,250,100,200);
+   
     
   fill(250,0,0);
-  c= a * random (1,10);
+  c = a * random (1,5);
   ellipse(mouseX,mouseY,c,c);
   //forma elegida
 }
