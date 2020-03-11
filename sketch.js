@@ -23,7 +23,7 @@ function draw() {
   ellipse(250,250,100,200);
   colorMode:(RGB);
   fill(250,0,0);
-  c= a * random (1,5);
+  c= a * random (1,10);
   ellipse(mouseX,mouseY,50,100);
   //forma elegida
 }
